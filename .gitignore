@@ -221,3 +221,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Project-specific ---
+# Downloaded / generated data: keep only fitted models
+data/*
+!data/r[1-4]_models2.json
+!data/fp_signatures.json
+
+# Saved third-party page, empty scaffold
+website/
+games/
+
+# Internal AI prompt notes
+GEMINI_BRIEFING.md
+research_prompt.txt
+
+# Contest: keep only latest submission, runbook and probe cells
+contest/*
+!contest/RUNBOOK.md
+!contest/round5_submission_bot.py
+!contest/cell2_probe.py
+!contest/cell3_test.py
+!contest/round2_probe_cell.py

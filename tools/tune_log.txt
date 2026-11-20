@@ -1,0 +1,14 @@
+=== tune start Tue Nov  3 17:03:31 2026 tables=1000/field
+baseline 4.283
+  P_OPEN_BASE=0.5: 4.252 diff -0.031 ± 0.060 (32s)
+  P_OPEN_BASE=0.38: 4.284 diff +0.001 ± 0.058 (33s)
+  P_OPEN_PER_BEHIND=0.085: 4.296 diff +0.013 ± 0.062 (33s)
+  P_OPEN_PER_BEHIND=0.045: 4.239 diff -0.043 ± 0.062 (34s)
+  P_OPEN_SIZE_BB=3.12: 4.248 diff -0.035 ± 0.059 (33s)
+  P_OPEN_SIZE_BB=2.12: 4.306 diff +0.023 ± 0.061 (35s)
+  P_PUSH_ZONE_BB=15: 4.249 diff -0.033 ± 0.055 (36s)
+  P_PUSH_ZONE_BB=9: 4.278 diff -0.005 ± 0.057 (37s)
+  P_PUSH_MULT=1.2: 4.204 diff -0.079 ± 0.059 (38s)
+  P_PUSH_MULT=0.8: 4.226 diff -0.057 ± 0.059 (37s)
+  P_PUSH_MIN_PCT=0.54: 4.281 diff -0.002 ± 0.057 (36s)
+(stopped manually: all moves within noise; cores needed for exploit work)
